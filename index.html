@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Datos del equipo</title>
+<!--grupo css-->
+<link rel="stylesheet" href="css/temasapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo javascript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/aciones.js"></script>
+
+<script src="phonegap.js"></script><!--necesario-->
+<!-- Extra Codiqa features -->
+<script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+</head>
+<body>
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="b">
+  <h1>datos del dispositivo</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+      <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<center>
+   <h2> Acelerometro</h2>
+   </center>
+   
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <center>
+   <h2> Geolocalizacion</h2>
+   </center>
+   
+    </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <center>
+   <h2> Camara</h2>
+   </center>
+    </a>
+   </li>
+   </ul>
+   </div>
+   </div>
+   <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Cesar Arturo Baez Alonso</h4>
+   <img src="imagenes/windows.png" width="46" height="46">
+   </div>
+   </div>
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b" 
+   <center>
+   <h1> Acelerometro</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div align="center" id="acelerometro" style="width:90%; height:90%; padding:20px 20px;
+text-align:left; background-color:#24B8FF;">
+Esperando......
+</div>
+<a data-role="button" data-theme="e" href="#" onClick="Detente();">
+Detener
+</a>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Cesar Arturo Baez Alonso</h4>
+   <img src="imagenes/windows.png" width="46" height="46">
+   </div>
+   </div>
+   <!-- geolocalizacion-->
+   
+    
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b" 
+   <center>
+   <h1> Geolocalizacion</h1>
+</div>
+
+
+<div data-role="main" class="ui-content">
+<div align="center" id="geolocalizacion" style="width:90%; height:90%; padding:20px 20px;
+text-align:left; background-color:#24B8FF;">
+Esperando......
+</div>
+<a data-role="button" data-theme="e" href="#" onClick="Detente();">
+Detener
+</a>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Cesar Arturo Baez Alonso</h4>
+   <img src="imagenes/windows.png" width="46" height="46">
+   </div>
+   </div>
+   
+   
+   
+
+   
+<body>
+
+</body>
+</html>
